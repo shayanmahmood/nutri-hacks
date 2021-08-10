@@ -1,0 +1,167 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;;
+
+}
+.header{
+    width: 98vw;
+    height: 100vh;
+    background-image: url("./jpg/hero-img.jpg");
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(2,50%);
+    margin-top: 2rem;
+}
+.nav{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-rows: 2rem;
+    grid-template-columns:repeat(7,14vw);
+}
+.logo-img{
+    position: absolute;
+    left: 21rem;
+    top: 0%;
+    width: 75%;
+}
+.text1{
+    top: 1rem;
+
+    position: absolute;
+    z-index: 1000000000000;
+    left: 34rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FF777C;
+}
+.text2{
+    top: 1rem;
+    position: absolute;
+    z-index: 1000000000000;
+    left: 45rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FF777C;
+}
+.text3{
+    top: 1rem;
+
+    position: absolute;
+    z-index: 1000000000000;
+    left: 50rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FF777C;
+}
+.text4{
+    top: 1rem;
+
+    position: absolute;
+    z-index: 1000000000000;
+    left: 60rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FF777C;
+}
+.text5{
+    top: 1rem;
+
+    position: absolute;
+    z-index: 1000000000000;
+    left: 66rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #FF777C;
+}
+.forks{
+    position: absolute;
+    z-index: 100000000000;
+bottom: 4rem;
+left: 43rem;
+width: 4%;
+}
+.cook{
+    position: absolute;
+    z-index: 100000000000;
+bottom: 4rem;
+left: 50rem;
+width: 7%;
+
+}
+.van{
+    position: absolute;
+    z-index: 100000000000;
+bottom: 4rem;
+left: 60rem;
+width: 9%;
+
+}
+.fork{
+    border-radius: 2rem;
+    padding: .5rem;
+    width: 5rem;
+    bottom: 2rem;
+}
+.cooks{
+    bottom: 2rem;
+    left: 50rem;
+}
+.vans{
+    bottom: 2rem;
+    left: 60rem;
+}
+.btn{
+position: absolute;
+border-radius: 2rem;
+padding: .5rem;
+width:7rem;
+box-shadow: none
+;
+border: none;
+    color: #fff;
+    background-color: #FF777C;
+}
+.head{
+    color: #FF9A0C;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+.headings{
+    position: absolute;
+    bottom: 35%;
+    right: 60%;
+    margin-left: 1.5rem;
+color: #FF777C;
+font-size: 2rem;
+font-weight: bold;
+
+}
+.heading{
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    bottom: 20%;
+    right: 59%;
+    margin-left: 1.5rem;
+font-size: 1.5rem;
+font-weight: bold;
+
+}
+.contect{
+    box-shadow: none
+    ;
+    border: none;
+        color: #fff;
+        background-color: #FF777C;
+    width: 15rem;   
+    border-radius: 2rem;
+padding: .5rem;
+position: absolute;
+top: 10rem;
+right: 57%;
+
+
+}
